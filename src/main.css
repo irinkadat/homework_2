@@ -383,8 +383,6 @@ img {
     display: none;
   }
   .card {
-    width: 100%;
-    /* height: 502px; */
     padding: 46px 0;
   }
   .card.second {
@@ -452,14 +450,18 @@ img {
   .cards {
     gap: 24px;
     margin: 90px 0 122px 0;
+    width: 100%;
   }
   .card {
     width: calc(100% - 40px);
-    padding: 70px 0;
+    padding: 43px 0px;
     margin: 0 20px;
+    height: 415px;
   }
+
   .card.second {
     width: calc(100% - 40px);
+    padding: 43px 0px;
   }
   .h3 {
     font-size: 34px;
