@@ -79,11 +79,10 @@ img {
 .content {
   /* height: 102px; */
   color: #9893a3;
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
+  width: 100%;
   line-height: 34px;
-  width: 489px;
 }
 
 .first-box {
@@ -95,7 +94,7 @@ img {
 
 .container {
   display: flex;
-
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -108,13 +107,13 @@ img {
 }
 
 .sec-3 {
-  margin: 220px auto 130px auto;
+  margin: 220px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .sec-3-txt {
-  width: calc(100% - 40px);
+  width: 400px;
   display: flex;
   gap: 24px;
   flex-direction: column;
@@ -150,14 +149,15 @@ img {
   display: flex;
   flex-direction: column;
   padding: 0px;
+  align-items: center;
 }
 .cards {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  gap: 45px;
-  margin: 90px 131px 177px 131px;
+  gap: 24px;
+  margin: 90px 0 177px 0;
 }
 .cards p {
   font-family: "Open Sans", sans-serif;
@@ -170,16 +170,16 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 46px 88px;
+  padding: 46px 0;
   gap: 30px;
   width: 363px;
-  /* height: 421px; */
+  height: 421px;
   border-radius: 2px;
   background: rgba(236, 235, 255, 0.3);
 }
 .card.second {
   background-color: #6c63ff;
-  padding: 70px 88px;
+  padding: 70px 0;
   gap: 40px;
 }
 .card.second p {
@@ -274,8 +274,15 @@ img {
   display: flex;
   justify-content: center;
   gap: 165px;
-  margin: 245px 270px;
+  margin: 245px 270px 80px 270px;
 }
+.footer-bottom-info {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 160px);
+  margin-bottom: 80px;
+}
+
 .social-icon {
   width: 32px;
   height: 33px;
@@ -348,10 +355,9 @@ img {
     width: 100%;
     line-height: 88px;
   }
-  /* .sec-box {
-    width: 688px;
-    height: 599.09px;
-  } */
+  .sec-3-txt {
+    width: calc(100% - 40px);
+  }
 
   .partners {
     justify-content: space-between;
